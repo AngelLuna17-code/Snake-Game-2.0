@@ -1,0 +1,94 @@
+body{
+  max-width: 1024px;
+  height: 1000px;
+  margin: 0 auto;
+  background-color: #708090;
+  background-image: url("../images/fono.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 1024px 2350px;
+}
+.main-container{
+  margin: 0 auto;
+  width: 500px;
+}
+.scenery{
+  border-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+}
+.scenery-background{
+}
+.scenery div {
+  width: 50px;
+  height: 50px;
+}
+.snake {
+  background-color: #696969;
+  border-radius: 8px;
+}
+.start{
+  font-size: 18px;
+  font-family: verdana;
+  color: black;
+  background-color: #6cae7e;
+  padding: 10px;
+  border-radius: 15px;
+  float: left;
+}
+.start2{
+  font-size: 18px;
+  font-family: verdana;
+  color: black;
+  background-color: #6cae7e;
+  padding: 10px;
+  border-radius: 15px;
+  float: left;
+}
+.start3{
+  font-size: 18px;
+  font-family: verdana;
+  color: black;
+  background-color: #6cae7e;
+  padding: 10px;
+  border-radius: 15px;
+  float: left;
+}
+.score{
+  padding: 10px;
+  background-color: #6cae7e;
+  color: black;
+  font-size: 18px;
+  font-family: verdana;
+  border-radius: 15px;
+  border: 2px solid black;
+  float: left;
+}
+ .food{
+   background-color: brown;
+   border-radius: 100%;
+ }
+ .heart{
+   height: 30px;
+   width: 30px;
+ }
+ .livesDisplay{
+ }
+.countLives{
+  padding: 4px;
+  background-color: #6cae7e;
+  font-family: verdana;
+  border-radius: 15px;
+  border: 2px solid black;
+  float: left;
+  color: black;
+  font-size: 18px;
+}
+.fono{
+  margin: 0 auto;
+  width: 1024px;
+  height: 3000px;
+}
